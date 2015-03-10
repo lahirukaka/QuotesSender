@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:src="@drawable/logo400_400"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="2dp"
+         />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:text="SMS QuoteSender by MFD"
+        android:textColor="@color/d_green"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <ImageView 
+        android:src="@drawable/logo1_48_48"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="2dp"
+        />
+
+</LinearLayout>

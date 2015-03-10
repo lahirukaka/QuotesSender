@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string-array name="cat_images">
+        <item>@drawable/friendship</item>
+        <item>@drawable/motivation</item>
+        <item>@drawable/success</item>
+        <item>@drawable/positive</item>
+        <item>@drawable/leadership</item>
+        <item>@drawable/life</item>
+        <item>@drawable/education</item>
+        <item>@drawable/smile</item>
+        <item>@drawable/wisdom</item>
+        <item>@drawable/change</item>
+    </string-array>
+    
+</resources>

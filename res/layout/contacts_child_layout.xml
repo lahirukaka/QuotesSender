@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52dp">
+
+    <TextView
+        android:id="@+id/contacts_child_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lahiru Udana"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="#669900"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="65dp"
+        android:drawableLeft="@drawable/call_light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

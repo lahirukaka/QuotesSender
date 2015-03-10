@@ -1,0 +1,26 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/quote_list"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" >
+        </ListView>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/select_quote_adz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+    </TableRow>
+
+</TableLayout>
